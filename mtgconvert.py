@@ -79,8 +79,11 @@ def replace(line, rules, format, dest):
 	#deckbox wants different land format
 	#of course, unhinged is special
 	if name in ["Plains", "Island", "Swamp", "Mountain", "Forest", "Wastes"] and dest == "cardsphere" and ed != "Unhinged":
-		print(ed)
 		name = name + " (#" + newline[format.collector_index] + ")"
+		name = matches_rule([name, ed], rules[FULL_INDEX])[0]
+		print(name)
+
+
 
 	new_name = matches_rule(name, rules[NAME_INDEX])
 	new_set = matches_rule(ed, rules[SET_INDEX])
