@@ -86,10 +86,8 @@ def replace(line, rules, format, dest):
 		name = matches_rule([name, ed], rules[FULL_INDEX])[0]
 		print(name)
 
-
-
-	new_name = matches_rule(name, rules[NAME_INDEX])
-	new_set = matches_rule(ed, rules[SET_INDEX])
+	newline[format.name_index] = matches_rule(name, rules[NAME_INDEX])
+	newline[format.set_index] = matches_rule(ed, rules[SET_INDEX])
 	
 
 	#delverlens language conversion
@@ -105,12 +103,12 @@ def replace(line, rules, format, dest):
 	if format.language_index is not None and newline[format.language_index] == "":
 		newline[format.language_index] = "English"
 
-	newline[format.name_index], newline[format.set_index] = matches_rule([new_name, new_set], rules[FULL_INDEX])
-	if format.collector_index is not None and ed in ['Alliances', 'Homelands', 'Portal']:
+	if format.collector_index is not None:
 		newline[format.name_index] = matches_rule([newline[format.name_index], newline[format.collector_index]], rules[NUMBER_INDEX])[0]
 		if "(" in newline[format.name_index]:
 			print(newline[format.name_index])
 
+	newline[format.name_index], newline[format.set_index] = matches_rule([newline[format.name_index], newline[format.set_index]], rules[FULL_INDEX])
 	return newline
 
 def reconstruct(header, lines, filename):
@@ -138,11 +136,11 @@ if __name__ == "__main__":
 	#print(rules)
 	#print(inputs[0])
 	outputs = [replace(line, rules, format, 'cardsphere') for line in inputs]
-	print(outputs[50])
+	#print(outputs[50])
 	reconstruct(header, outputs, 'output.csv')
 	count = 0
 	for i, o in zip(inputs, outputs):
 		if i != o:
-			print(i[format.name_index], i[format.set_index], o[format.name_index], o[format.set_index])
+			#print(i[format.name_index], i[format.set_index], o[format.name_index], o[format.set_index])
 			count +=1
 	print(str(count) + " converted!")	
