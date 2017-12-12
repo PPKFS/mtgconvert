@@ -14,8 +14,7 @@ set.
 
 **Config file syntax**
 
-Three headings: SET_REPLACE, NAME_REPLACE, NAME_SET_REPLACE. These contain replacement rules for all names of a card, all editions, or specific name/edition
-pairs respectively.
+Four headings: SET_REPLACE, NAME_REPLACE, NAME_SET_REPLACE, NAME_NUMEBR_REPLACE. These contain replacement rules for all names of a card, all editions, specific name/edition pairs, or alt-art-same-number cards respectively.
 
 A replacement rule for SET_REPLACE or NAME_REPLACE is of the format:
 
@@ -29,5 +28,11 @@ The bulk replacement rule for NAME_SET_REPLACE (e.g. for a set of prerelease pro
 
 `{ name1 | name2 | ... } | old_edition -> new_edition`
 
-Intention is for the community to update these replacement files as errors and mismatches are found.
+The replacement rule for NAME_NUMBER_REPLACE (Alliances, Homelands, Portal for Cardsphere) is of the format:
+
+`name | number -> new_name`
+
+Intention is for the community to update these replacement files as errors and mismatches are found. 
+
+To update finicky things (namely Deckbox->Cardsphere alt-art-same-number cards), it is recommended to check the deckbox collector number and the corresponding CS card name. As these are tedious and low-impact, they will be added as people find them.
 
