@@ -7,7 +7,7 @@ NUMBER_INDEX = 3
 FULL_INDEX = 2
 
 class Format():
-	def __init__(self, name, has_header, name_index, set_index, language_index, condition_index, collector_index):
+	def __init__(self, name, has_header, name_index, set_index, language_index, condition_index, collector_index, foil_index):
 		self.name = name
 		self.has_header = has_header
 		self.name_index = name_index
@@ -15,9 +15,10 @@ class Format():
 		self.language_index = language_index
 		self.condition_index = condition_index
 		self.collector_index = collector_index
+		self.foil_index = foil_index
 
-Format.Delverlens = Format('delverlens', True, 2, 3, 6, 5, 4)
-Format.Deckbox = Format('deckbox', True, 2, 3, 6, 5, 4)
+Format.Delverlens = Format('delverlens', True, 2, 3, 6, 5, 4, 7)
+Format.Deckbox = Format('deckbox', True, 2, 3, 6, 5, 4, 7)
 
 def load(format, filename):
 	header = None
@@ -89,6 +90,9 @@ def replace(line, rules, format, dest):
 	newline[format.name_index] = matches_rule(name, rules[NAME_INDEX])
 	newline[format.set_index] = matches_rule(ed, rules[SET_INDEX])
 	
+	#fnm promos are foil
+	if ed in ["Friday Night Magic", "Launch Parties"] and newline[format.foil_index] == "":
+		newline[format.foil_index] = "foil"
 
 	#delverlens language conversion
 	if format.name == "delverlens":

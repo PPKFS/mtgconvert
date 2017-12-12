@@ -1,13 +1,18 @@
 SET_REPLACE
 
 Prerelease Events: Hour of Devastation -> Prerelease Promos
+Prerelease Events: Shadows over Innistrad -> Prerelease Promos
 Prerelease Events: Eldritch Moon -> Prerelease Promos
+Prerelease Events: Kaladesh -> Prerelease Promos
+Prerelease Events: Aether Revolt -> Prerelease Promos
+Prerelease Events: Amonkhet -> Prerelease Promos
 Prerelease Events: Ixalan -> Prerelease Promos
 Duel Decks Anthology, Elves vs. Goblins -> 	Duel Decks: Anthology
 Duel Decks Anthology, Garruk vs. Liliana -> Duel Decks: Anthology
 Duel Decks Anthology, Jace vs. Chandra -> Duel Decks: Anthology
 Duel Decks Anthology, Divine vs. Demonic -> Duel Decks: Anthology
 Portal Second Age -> Portal: Second Age
+Time Spiral "Timeshifted" -> Time Spiral
 
 NAME_REPLACE
 
@@ -81,7 +86,7 @@ Trueheart Duelist | Magic Game Day Cards -> Trueheart Duelist (Full Art) | Magic
 
 Evolving Wilds | Prerelease Events: Dragons of Tarkir -> Evolving Wilds | Dragons of Tarkir Dragonfury Game
 
-{Chandra, Pyromaster (2013) | Chandra, Pyromaster (2014) } | Media Inserts -> SDCC Promos
+{Chandra, Pyromaster (2013) | Chandra, Pyromaster (2014) } | Media Inserts -> SDCC
 
 NAME_NUMBER_REPLACE
 
