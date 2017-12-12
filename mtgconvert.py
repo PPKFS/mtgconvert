@@ -3,6 +3,7 @@ import argparse
 
 NAME_INDEX = 1
 SET_INDEX = 0
+NUMBER_INDEX = 3
 FULL_INDEX = 2
 
 class Format():
@@ -60,10 +61,12 @@ def get_rules_file(file_from, to):
 		set_index = lines.index('SET_REPLACE')
 		name_index = lines.index('NAME_REPLACE')
 		full_index = lines.index('NAME_SET_REPLACE')
+		number_index = lines.index('NAME_NUMBER_REPLACE')
 		
 	return (flatten_rules(lines[set_index:name_index]), \
 		flatten_rules(lines[name_index:full_index]), \
-		flatten_rules(lines[full_index:]))
+		flatten_rules(lines[full_index:number_index]), \
+		flatten_rules(lines[number_index:]))
 
 def replace(line, rules, format, dest):
 	def matches_rule(x, rule):
@@ -103,6 +106,11 @@ def replace(line, rules, format, dest):
 		newline[format.language_index] = "English"
 
 	newline[format.name_index], newline[format.set_index] = matches_rule([new_name, new_set], rules[FULL_INDEX])
+	if format.collector_index is not None and ed in ['Alliances', 'Homelands', 'Portal']:
+		newline[format.name_index] = matches_rule([newline[format.name_index], newline[format.collector_index]], rules[NUMBER_INDEX])[0]
+		if "(" in newline[format.name_index]:
+			print(newline[format.name_index])
+
 	return newline
 
 def reconstruct(header, lines, filename):
@@ -135,6 +143,6 @@ if __name__ == "__main__":
 	count = 0
 	for i, o in zip(inputs, outputs):
 		if i != o:
-			#print(i[format.name_index], i[format.set_index], o[format.name_index], o[format.set_index])
+			print(i[format.name_index], i[format.set_index], o[format.name_index], o[format.set_index])
 			count +=1
 	print(str(count) + " converted!")	
