@@ -75,8 +75,8 @@ def replace(line, rules, format, dest):
 			if r[0] == x:
 				return r[1]
 		return x
-	#if len(line) == 0:
-	#	return line #ignore empty
+	if len(line) == 0:
+		return line #ignore empty
 	newline = line[:]
 	name, ed = newline[format.name_index].strip(), newline[format.set_index].strip()
 
@@ -139,7 +139,7 @@ if __name__ == "__main__":
 	rules = get_rules_file('deckbox', 'cardsphere')
 	#print(rules)
 	#print(inputs[0])
-	outputs = [replace(line, rules, format, 'cardsphere') for line in inputs]
+	outputs = [replace(line, rules, format, 'deckbox') for line in inputs]
 	#print(outputs[50])
 	reconstruct(header, outputs, 'output.csv')
 	count = 0
