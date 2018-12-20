@@ -1,12 +1,15 @@
 SET_REPLACE
 
-#Prerelease Events: Hour of Devastation -> Prerelease Promos
-#Prerelease Events: Shadows over Innistrad -> Prerelease Promos
-#Prerelease Events: Eldritch Moon -> Prerelease Promos
-#Prerelease Events: Kaladesh -> Prerelease Promos
-#Prerelease Events: Aether Revolt -> Prerelease Promos
-#Prerelease Events: Amonkhet -> Prerelease Promos
-#Prerelease Events: Ixalan -> Prerelease Promos
+Prerelease Events: Hour of Devastation -> Prerelease Promos
+Prerelease Events: Shadows over Innistrad -> Prerelease Promos
+Prerelease Events: Eldritch Moon -> Prerelease Promos
+Prerelease Events: Kaladesh -> Prerelease Promos
+Prerelease Events: Aether Revolt -> Prerelease Promos
+Prerelease Events: Amonkhet -> Prerelease Promos
+Prerelease Events: Ixalan -> Prerelease Promos
+Prerelease Events: Rivals of Ixalan -> Prerelease Promos
+Prerelease Events: Dominaria -> Prerelease Promos
+
 
 Duel Decks Anthology, Elves vs. Goblins -> 	Duel Decks: Anthology
 Duel Decks Anthology, Garruk vs. Liliana -> Duel Decks: Anthology
@@ -14,6 +17,9 @@ Duel Decks Anthology, Jace vs. Chandra -> Duel Decks: Anthology
 Duel Decks Anthology, Divine vs. Demonic -> Duel Decks: Anthology
 Portal Second Age -> Portal: Second Age
 Time Spiral "Timeshifted" -> Time Spiral
+Grand Prix -> Grand Prix Promos
+Prerelease Events -> Prerelease Promos
+Extras: Modern Masters 2017 Edition -> Modern Masters 2017
 
 NAME_REPLACE
 
@@ -22,6 +28,7 @@ Hanweir Battlements -> Hanweir Battlements (Top)
 Hanweir Garrison -> Hanweir Garrison (Bottom)
 Liberating Combustion -> Liberating Combustion (Planeswalker Deck)
 Marit Lage -> Marit Lage Token
+Elemental -> Elemental Token
 
 Wastes (#183) -> Wastes (#183) (Full Art)
 Wastes (#184) -> Wastes (#184) (Full Art)
@@ -83,13 +90,35 @@ Swamp (#62) | Duel Decks Anthology, Garruk vs. Liliana ->  Swamp (#62) (Garruk v
 
 Hall of Triumph | Magic Game Day Cards -> Hall of Triumph (Hero's Path) | Magic Game Day Cards
 Adorned Pouncer | Magic Game Day Cards -> Adorned Pouncer (Full Art) | Magic Game Day Cards
-Trueheart Duelist | Magic Game Day Cards -> Trueheart Duelist | Magic Game Day Cards
 
 {Chief of the Foundry | Dreg Mangler | Karametra's Acolyte | Ravenous Bloodseeker | Scythe Leopard | Sultai Charm} | Media Inserts -> Gift Box Promos
 
 Evolving Wilds | Prerelease Events: Dragons of Tarkir -> Evolving Wilds | Dragons of Tarkir Dragonfury Game
 
 {Chandra, Pyromaster (2013) | Chandra, Pyromaster (2014) } | Media Inserts -> SDCC
+
+Frost Titan | Media Inserts -> Frost Titan (2012) | Duels of the Planeswalkers Game Promos
+Nissa Revane | Media Inserts -> Nissa Revane (2010) | Duels of the Planeswalkers Game Promos
+Niv-Mizzet, the Firemind | Champs -> Niv-Mizzet, the Firemind (2006) | Champs Promos
+
+Ogre Battledriver | Media Inserts -> Ogre Battledriver (2014) | Duels of the Planeswalkers Game Promos
+
+Serra Avatar | Media Inserts -> Serra Avatar (2013) | Duels of the Planeswalkers Game Promos
+
+
+Magister of Worth | Release Events -> Magister of Worth | Launch Promos
+
+Bloodthrone Vampire | Media Inserts -> Bloodthrone Vampire (2011) | Convention
+
+{Archfiend of Ifnir |  Arguel's Blood Fast |  Birds of Paradise |  Burning Sun's Avatar |  Captain's Hook |  Cathedral of War |  Celestial Colonnade |  Chandra's Phoenix |  Conqueror's Galleon |  Day of Judgment |  Devil's Play |  Dowsing Dagger |  Eidolon of Blossoms |  Elusive Tormentor |  Fated Conflagration |  Firesong and Sunspeaker |  Goblin Dark-Dwellers |  Goblin Rabblemaster |  Gravecrawler |  Growing Rites of Itlimoc |  Guul Draz Assassin |  Honor of the Pure |  Legion's Landing |  Memoricide |  Mirran Crusader |  Nightveil Specter |  Ojutai's Command |  Primal Amulet |  Ratchet Bomb |  Rattleclaw Mystic |  Relic Seeker |  Render Silent |  Ruinous Path |  Scrap Trawler |  Search for Azcanta |  Shamanic Revelation |  Silverblade Paladin |  Skyship Stalker |  Supreme Verdict |  Surgical Extraction |  Sylvan Caryatid |  Thalia, Heretic Cathar |  Thaumatic Compass |  Treasure Map |  Vance's Blasting Cannons |  Wildfire Eternal} | Media Inserts -> Buy-a-Box Promos
+
+{Acquire |  Arrest |  Breath of Malfegor |  Consume Spirit |  Corrupt |  Duress |  Electrolyze |  Faithless Looting |  Feast of Blood |  Gaze of Granite |  High Tide |  Ogre Arsonist |  Standstill |  Treasure Hunt |  Turnabout |  Voidmage Husher |  Wash Out} | Media Inserts -> IDW Comics
+
+{Terastodon} | Media Inserts -> Resale Promos
+
+Trostani, Selesnya's Voice | Guilds of Ravnica Guild Kit -> Trostani, Selesnya's Voice | Guild Kit (Selesnya)
+
+Very Cryptic Command (b) | Unstable -> Very Cryptic Command (Untap) | Unstable
 
 NAME_NUMBER_REPLACE
 
@@ -103,3 +132,12 @@ Soldevi Sage | 52 -> Soldevi Sage (Reading)
 Storm Crow | 54 -> Storm Crow (Flying Right)
 Kjeldoran Escort | 134 -> Kjeldoran Escort (Red Blanket)
 Wild Aesthir | 155 -> Wild Aesthir (Wings Spread)
+Arcane Denial | 32 -> Arcane Denial (Axe)
+Fling | 50 -> Fling (#50)
+Fling | 69 -> Fling (#69)
+Izzet Guildgate | 251 -> Izzet Guildgate (#251)
+Izzet Guildgate | 252 -> Izzet Guildgate (#252)
+Phantasmal Fiend | 21 -> Phantasmal Fiend (Doorway)
+Storm Crow | 55 -> Storm Crow (Flying Left)
+Harmonize | 21 -> Harmonize (Garruk vs. Liliana)
+Giant Growth | 21 -> Giant Growth (Elves vs. Goblins)

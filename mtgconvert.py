@@ -106,12 +106,14 @@ def replace(line, rules, format, dest):
 		name = matches_rule([name, ed], rules[FULL_INDEX])[0]
 		print(name)
 
+	#cardsphere hates duel deck anthologies.
+
 	#main bulk here
 	newline[format.name_index] = matches_rule(name, rules[NAME_INDEX])
 	newline[format.set_index] = matches_rule(ed, rules[SET_INDEX])
 	
 	#fnm promos are always foil
-	if ed in ["Friday Night Magic", "Launch Parties"] and newline[format.foil_index] == "":
+	if ed in ["Friday Night Magic", "Launch Parties", "WPN/Gateway", "Prerelease Events"] and newline[format.foil_index] == "":
 		newline[format.foil_index] = "foil"
 
 	#currently can't handle very cryptic commands
@@ -172,4 +174,5 @@ if __name__ == "__main__":
 		if i != o:
 			print("{0} ({1}) -> {2} ({3})".format(i[format.name_index], i[format.set_index], o[format.name_index], o[format.set_index]))
 			count +=1
-	print(str(count) + " converted!")	
+	print(str(count) + " converted!")
+	print("Saved to {0}".format(args.outputfile))
