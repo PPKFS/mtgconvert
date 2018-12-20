@@ -21,6 +21,10 @@ outfile: the output file
 inputformat: currently supported: `deckbox, delverlens`  
 outputformat: currently supported: `deckbox, cardsphere`  
 
+Example usage:  
+
+`python mtgconvert.py inv.csv delverlens deckbox out.csv`
+
 ---
 
 **Config file syntax**
