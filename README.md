@@ -12,6 +12,17 @@ set.
 
 ---
 
+**Usage**
+
+`python mtgconvert.py infile inputformat outputformat outfile`
+
+infile: the input file  
+outfile: the output file  
+inputformat: currently supported: `deckbox, delverlens`  
+outputformat: currently supported: `deckbox, cardsphere`  
+
+---
+
 **Config file syntax**
 
 Four headings: SET_REPLACE, NAME_REPLACE, NAME_SET_REPLACE, NAME_NUMEBR_REPLACE. These contain replacement rules for all names of a card, all editions, specific name/edition pairs, or alt-art-same-number cards respectively.
@@ -33,6 +44,7 @@ The replacement rule for NAME_NUMBER_REPLACE (Alliances, Homelands, Portal for C
 `name | number -> new_name`
 
 Intention is for the community to update these replacement files as errors and mismatches are found. 
+Easiest way to add full new set rules is to use a HTML table copier (e.g. Copytables) and text replace tools. 
 
 To update finicky things (namely Deckbox->Cardsphere alt-art-same-number cards), it is recommended to check the deckbox collector number and the corresponding CS card name. As these are tedious and low-impact, they will be added as people find them.
 

@@ -5,6 +5,27 @@ NAME_INDEX = 1
 SET_INDEX = 0
 NUMBER_INDEX = 3
 FULL_INDEX = 2
+MEDIAINSERTS = ["Arena", "Sewers of Estark", "Nalathni Dragon", "Fireball", "Blue Elemental Blast", "Mana Crypt", "Windseeker Centaur", "Giant Badger", "Scent of Cinder", 
+"Lightning Hounds", "Spined Wurm", "Warmonger", "Silver Drake", "Phyrexian Rager", "Jace Beleren", "Garruk Wildspeaker", "Brion Stoutarm", "Jaya Ballard, Task Mage", "Broodmate Dragon", 
+"Honor of the Pure", "Steward of Valeron", "Day of Judgment", "Celestial Colonnade", "Retaliator Griffin", "Kor Skyfisher", "Guul Draz Assassin", "Nissa Revane", "Birds of Paradise", 
+"Memoricide", "Liliana Vess", "Bloodthrone Vampire", "Mirran Crusader", "Surgical Extraction", "Frost Titan", "Grave Titan", "Inferno Titan", "Chandra's Phoenix", "Treasure Hunt", 
+"Faithless Looting", "Devil's Play", "Gravecrawler", "Electrolyze", "Feast of Blood", "Silverblade Paladin", "Merfolk Mesmerist", "Knight Exemplar", "Sunblast Angel", "Serra Avatar", 
+"Primordial Hydra", "Vampire Nocturnus", "Cathedral of War", "Terastodon", "Arrest", "Consume Spirit", "Dreg Mangler", "Supreme Verdict", "Standstill", "Breath of Malfegor", 
+"Angel of Glory's Rise", "Turnabout", "Nightveil Specter", "Voidmage Husher", "Ogre Arsonist", "Corrupt", "Chandra's Fury", "Render Silent", "Ratchet Bomb", "Bonescythe Sliver", 
+"Ogre Battledriver", "Scavenging Ooze", "Hamletback Goliath", "Ajani, Caller of the Pride", "Jace, Memory Adept", "Liliana of the Dark Realms", "Chandra, Pyromaster", 
+"Garruk, Caller of Beasts", "Sylvan Caryatid", "Karametra's Acolyte", "Fated Conflagration", "High Tide", "Gaze of Granite", "Wash Out", "Acquire", "Duress", "Eidolon of Blossoms", 
+"Goblin Rabblemaster", "Jace, the Living Guildpact", "Ajani Steadfast", "Liliana Vess", "Chandra, Pyromaster", "Nissa, Worldwaker", "Garruk, Apex Predator", "Soul of Zendikar", 
+"Soul of Ravnica", "Angelic Skirmisher", "Rattleclaw Mystic", "Xathrid Necromancer", "Shamanic Revelation", "Sultai Charm", "Stealer of Secrets", "Ojutai's Command", "Genesis Hydra", 
+"Relic Seeker", "Kytheon, Hero of Akros", "Jace, Vryn's Prodigy", "Liliana, Heretical Healer", "Chandra, Fire of Kaladesh", "Nissa, Vastwood Seer", "Aeronaut Tinkerer", 
+"Ruinous Path", "Scythe Leopard", "Goblin Dark-Dwellers", "Archangel", "Elusive Tormentor", "Ravenous Bloodseeker", "Thalia, Heretic Cathar", "Atarka, World Render", "Outland Colossus", 
+"Felidar Sovereign", "Liliana, the Last Hope", "Gideon, Ally of Zendikar", "Jace, Unraveler of Secrets", "Chandra, Flamecaller", "Nissa, Voice of Zendikar", "Skyship Stalker", 
+"Chief of the Foundry", "Scrap Trawler", "Archfiend of Ifnir", "Thorn Elemental", "Ascendant Evincar", "Parallax Dementia", "Shepherd of the Lost", "Wildfire Eternal", "Genesis Hydra", 
+"Chandra, Torch of Defiance", "Gideon of the Trials", "Jace, Unraveler of Secrets", "Liliana, Death's Majesty", "Nicol Bolas, God-Pharaoh", "Nissa, Steward of Elements", 
+"Burning Sun's Avatar", "Bristling Hydra", "Captain's Hook", "Thalia's Lancers", "Deeproot Champion", "Gideon of the Trials", "Jace, Cunning Castaway", "Liliana, Untouched by Death", 
+"Nissa, Vital Force", "Death Baron", "Etali, Primal Storm", "Curator of Mysteries"]
+
+DEFAULT_CONDITION = "Near Mint"
+DEFAULT_LANGUAGE = "English"
 
 class Format():
 	def __init__(self, name, has_header, name_index, set_index, language_index, condition_index, collector_index, foil_index):
@@ -49,10 +70,7 @@ def flatten_rules(rules):
 		if "->" not in s:
 			continue
 		parsed, res = parse_rule(s)
-		if res:
-			final += parsed
-		else:
-			final += [parsed]
+		final += parsed if res else [parsed]
 	return final
   
 def get_rules_file(file_from, to):
@@ -80,19 +98,25 @@ def replace(line, rules, format, dest):
 	newline = line[:]
 	name, ed = newline[format.name_index].strip(), newline[format.set_index].strip()
 
-	#deckbox wants different land format
-	#of course, unhinged is special
+	#some special hard-coded rules go here
+
+	#cardsphere wants numbered lands
 	if name in ["Plains", "Island", "Swamp", "Mountain", "Forest", "Wastes"] and dest == "cardsphere" and ed != "Unhinged":
 		name = name + " (#" + newline[format.collector_index] + ")"
 		name = matches_rule([name, ed], rules[FULL_INDEX])[0]
 		print(name)
 
+	#main bulk here
 	newline[format.name_index] = matches_rule(name, rules[NAME_INDEX])
 	newline[format.set_index] = matches_rule(ed, rules[SET_INDEX])
 	
-	#fnm promos are foil
+	#fnm promos are always foil
 	if ed in ["Friday Night Magic", "Launch Parties"] and newline[format.foil_index] == "":
 		newline[format.foil_index] = "foil"
+
+	#currently can't handle very cryptic commands
+	if name == "Very Cryptic Command":
+		print("Can't currently grok very cryptic commands. Please check edition manually.")
 
 	#delverlens language conversion
 	if format.name == "delverlens":
@@ -103,20 +127,21 @@ def replace(line, rules, format, dest):
 
 	#fill in missing conditions
 	if format.condition_index is not None and newline[format.condition_index] == "":
-		newline[format.condition_index] = "Near Mint"
+		newline[format.condition_index] = DEFAULT_CONDITION
 	if format.language_index is not None and newline[format.language_index] == "":
-		newline[format.language_index] = "English"
+		newline[format.language_index] = DEFAULT_LANGUAGE
 
 	if format.collector_index is not None:
 		newline[format.name_index] = matches_rule([newline[format.name_index], newline[format.collector_index]], rules[NUMBER_INDEX])[0]
-		if "(" in newline[format.name_index]:
-			print(newline[format.name_index])
 
 	newline[format.name_index], newline[format.set_index] = matches_rule([newline[format.name_index], newline[format.set_index]], rules[FULL_INDEX])
+
+	if newline[format.set_index] == "Media Inserts" and not newline[format.name_index] in MEDIAINSERTS:
+		print("Card {0} has Media Inserts set but is not a Buy-a-Box promo. Likely to cause issues with deckbox's unknown editions. Please manually check."
+			.format(newline[format.name_index]))
 	return newline
 
 def reconstruct(header, lines, filename):
-	print(len(lines))
 	with open(filename, 'w+', newline='') as file:
 		writer = csv.writer(file)
 		writer.writerow(header)
@@ -125,26 +150,26 @@ def reconstruct(header, lines, filename):
 
 if __name__ == "__main__":
 
-	'''
+	
 	parser = argparse.ArgumentParser(description='Convert one MTG csv file from one format to another.')
 	parser.add_argument("filename", help="path to the csv file to convert")
-	parser.add_argument('from', help='the format to convert from')
-	parser.add_argument('to', help='the format to convert to')
+	parser.add_argument('inputformat', help='the format to convert from')
+	parser.add_argument('outputformat', help='the format to convert to')
 	parser.add_argument("outputfile", help="path to the output file")
 	args = parser.parse_args()
-	print(args['from'])
-	'''
-	format = Format.Delverlens
-	header, inputs = load(format, 'inv.csv')
-	rules = get_rules_file('deckbox', 'cardsphere')
+	print(args.inputformat)
+	format = Format.Delverlens if args.inputformat == "delverlens" else Format.Deckbox
+	out = args.outputformat
+	header, inputs = load(format, args.filename)
+	rules = get_rules_file(format.name, out)
 	#print(rules)
 	#print(inputs[0])
-	outputs = [replace(line, rules, format, 'deckbox') for line in inputs]
+	outputs = [replace(line, rules, format, out) for line in inputs]
 	#print(outputs[50])
-	reconstruct(header, outputs, 'output.csv')
+	reconstruct(header, outputs, args.outputfile)
 	count = 0
 	for i, o in zip(inputs, outputs):
 		if i != o:
-			#print(i[format.name_index], i[format.set_index], o[format.name_index], o[format.set_index])
+			print("{0} ({1}) -> {2} ({3})".format(i[format.name_index], i[format.set_index], o[format.name_index], o[format.set_index]))
 			count +=1
 	print(str(count) + " converted!")	
