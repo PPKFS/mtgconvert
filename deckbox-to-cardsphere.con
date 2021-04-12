@@ -1,130 +1,65 @@
 SET_REPLACE
 
-Prerelease Events: Hour of Devastation -> Prerelease Promos
-Prerelease Events: Shadows over Innistrad -> Prerelease Promos
-Prerelease Events: Eldritch Moon -> Prerelease Promos
-Prerelease Events: Kaladesh -> Prerelease Promos
-Prerelease Events: Aether Revolt -> Prerelease Promos
-Prerelease Events: Amonkhet -> Prerelease Promos
-Prerelease Events: Ixalan -> Prerelease Promos
-Prerelease Events: Rivals of Ixalan -> Prerelease Promos
-Prerelease Events: Dominaria -> Prerelease Promos
+Mystery Booster Retail Edition Foils -> Mystery Booster
+Core Set 2020 -> Core 2020
+Promo Pack: Throne of Eldraine -> Throne of Eldraine - Promo Pack
+Promo Pack: Core Set 2020 -> Core 2020 - Promo Pack
+Promo Pack: Theros Beyond Death -> Theros: Beyond Death - Promo Pack
+Promo Pack: Ikoria: Lair of Behemoths -> Ikoria: Lair of Behemoths - Promo Pack
 
-
-Duel Decks Anthology, Elves vs. Goblins -> 	Duel Decks: Anthology
-Duel Decks Anthology, Garruk vs. Liliana -> Duel Decks: Anthology
-Duel Decks Anthology, Jace vs. Chandra -> Duel Decks: Anthology
-Duel Decks Anthology, Divine vs. Demonic -> Duel Decks: Anthology
-Portal Second Age -> Portal: Second Age
-Time Spiral "Timeshifted" -> Time Spiral
-Grand Prix -> Grand Prix Promos
-Prerelease Events -> Prerelease Promos
-Extras: Modern Masters 2017 Edition -> Modern Masters 2017
+Promos: Throne of Eldraine -> Throne of Eldraine - Promo Pack
+Promos: Core Set 2020 -> Core 2020 - Promo Pack
+World Championship Deck: 1999, Jakub Šlemr -> World Championship Deck: 1999, Jakub Slemr
+Black Friday Treasure Chest Promos -> Buy-a-Box Promos
+War of the Spark Mythic Edition -> Mythic Edition
 
 NAME_REPLACE
-
-Séance -> Seance
-Lim-Dûl's Vault -> Lim-Dul's Vault
-Hanweir Battlements -> Hanweir Battlements (Top)
-Hanweir Garrison -> Hanweir Garrison (Bottom)
-Liberating Combustion -> Liberating Combustion (Planeswalker Deck)
-Marit Lage -> Marit Lage Token
-Elemental -> Elemental Token
-
-Wastes (#183) -> Wastes (#183) (Full Art)
-Wastes (#184) -> Wastes (#184) (Full Art)
-
-Graf Rats -> Graf Rats (Top)
-Midnight Scavengers -> Midnight Scavengers (Bottom)
-
-Flame Lash -> Flame Lash (Planeswalker Deck)
-
-Chandra, Pyrogenius -> Chandra, Pyrogenius (Planeswalker Deck)
-Terrain Elemental -> Terrain Elemental (Planeswalker Deck)
-Verdant Crescendo -> Verdant Crescendo (Planeswalker Deck)
-Renegade Firebrand -> Renegade Firebrand (Planeswalker Deck)
-Liberating Combustion -> Liberating Combustion (Planeswalker Deck)
-Nissa, Nature's Artisan -> Nissa, Nature's Artisan (Planeswalker Deck)
-Guardian of the Great Conduit -> Guardian of the Great Conduit (Planeswalker Deck)
-
+Dandân -> Dandan
+El-Hajjâj -> El-Hajjaj
+Very Cryptic Command (d) -> Very Cryptic Command (Return)
 NAME_SET_REPLACE
 
-Bruna, the Fading Light | Eldritch Moon -> Bruna, the Fading Light (Bottom) | Eldritch Moon 
-Bruna, the Fading Light | Prerelease Events: Eldritch Moon -> Bruna, the Fading Light (Bottom) | Prerelease Events: Eldritch Moon
-Stone Quarry | Kaladesh -> Stone Quarry (Planeswalker Deck) | Kaladesh
-Woodland Stream | Kaladesh -> Woodland Stream (Planeswalker Deck) | Kaladesh
+Emblem: Elspeth, Sun's Champion | Extras: Theros -> Elspeth Emblem | Theros
+Emblem: Tamiyo, The Moon Sage | Extras: Avacyn Restored -> Tamiyo Emblem | Avacyn Restored
+{Walk the Plank} | Release Events -> Open House Promos
 
-Plains (#185) | Hour of Devastation -> Plains (#185) (Full Art) | Hour of Devastation
-Island (#186) | Hour of Devastation -> Island (#186) (Full Art) | Hour of Devastation
-Swamp (#187) | Hour of Devastation -> Swamp (#187) (Full Art) | Hour of Devastation
-Mountain (#188) | Hour of Devastation -> Mountain (#188) (Full Art) | Hour of Devastation
-Forest (#189) | Hour of Devastation -> Forest (#189) (Full Art) | Hour of Devastation
+{Firesong and Sunspeaker} | Dominaria -> Buy-a-Box Promos
 
-Plains (#250) | Amonkhet -> Plains (#250) (Full Art) | Amonkhet
-Island (#251) | Amonkhet -> Island (#251) (Full Art) | Amonkhet
-Swamp (#252) | Amonkhet -> Swamp (#252) (Full Art) | Amonkhet
-Mountain (#253) | Amonkhet -> Mountain (#252) (Full Art) | Amonkhet
-Forest (#254) | Amonkhet -> Forest (#254) (Full Art) | Amonkhet
+Emmara, Soul of the Accord | Standard Showdown Promos -> Emmara, Soul of the Accord (Full Art) | Store Championship Promos
+Ghalta, Primal Hunger | Standard Showdown Promos -> Ghalta, Primal Hunger (Full Art) | Store Championship Promos
+Steel Leaf Champion | Standard Showdown Promos -> Steel Leaf Champion (Full Art) | Store Championship Promos
+{Angelic Skirmisher | Angel of Glory's Rise | Atarka, World Render | Beast Whisperer | Brion Stoutarm | Bristling Hydra | Broodmate Dragon | Curator of Mysteries | End-Raze Forerunners | Etali, Primal Storm | Felidar Sovereign | Gargos, Vicious Watcher | Genesis Hydra | Hamletback Goliath | Jaya Ballard, Task Mage | Knight Exemplar | Lathliss, Dragon Queen | Neheb, Dreadhorde Champion | Outland Colossus | Retaliator Griffin | Sunblast Angel | Terastodon | Thalia's Lancers | Xathrid Necromancer} | Media Inserts -> Resale Promos
 
-Forest (#28) | Duel Decks Anthology, Elves vs. Goblins ->  Forest (#28) (Elves vs. Goblins) | Duel Decks: Anthology
-Forest (#28) | Duel Decks Anthology, Garruk vs. Liliana ->  Forest (#28) (Garruk vs. Liliana) | Duel Decks: Anthology
-Forest (#29) | Duel Decks Anthology, Elves vs. Goblins ->  Forest (#29) (Elves vs. Goblins) | Duel Decks: Anthology
-Forest (#29) | Duel Decks Anthology, Garruk vs. Liliana ->  Forest (#29) (Garruk vs. Liliana) | Duel Decks: Anthology
-Forest (#30) | Duel Decks Anthology, Elves vs. Goblins ->  Forest (#30) (Elves vs. Goblins) | Duel Decks: Anthology 
-Forest (#30) | Duel Decks Anthology, Garruk vs. Liliana ->  Forest (#30) (Garruk vs. Liliana) | Duel Decks: Anthology
-Forest (#31) | Duel Decks Anthology, Elves vs. Goblins ->  Forest (#31) (Elves vs. Goblins) | Duel Decks: Anthology
-Forest (#31) | Duel Decks Anthology, Garruk vs. Liliana ->  Forest (#31) (Garruk vs. Liliana) | Duel Decks: Anthology
-Mountain (#59) | Duel Decks Anthology, Elves vs. Goblins -> Mountain (#59) (Elves vs. Goblins) | Duel Decks: Anthology
-Mountain (#59) | Duel Decks Anthology, Jace vs. Chandra ->  Mountain (#59) (Jace vs. Chandra) | Duel Decks: Anthology
-Mountain (#60) | Duel Decks Anthology, Elves vs. Goblins ->  Mountain (#60) (Elves vs. Goblins) | Duel Decks: Anthology
-Mountain (#60) | Duel Decks Anthology, Jace vs. Chandra ->  Mountain (#60) (Jace vs. Chandra) | Duel Decks: Anthology
-Mountain (#61) | Duel Decks Anthology, Elves vs. Goblins ->  Mountain (#61) (Elves vs. Goblins) | Duel Decks: Anthology
-Mountain (#61) | Duel Decks Anthology, Jace vs. Chandra ->  Mountain (#61) (Jace vs. Chandra) | Duel Decks: Anthology
-Mountain (#62) | Duel Decks Anthology, Elves vs. Goblins ->  Mountain (#62) (Elves vs. Goblins) | Duel Decks: Anthology
-Mountain (#62) | Duel Decks Anthology, Jace vs. Chandra ->  Mountain (#62) (Jace vs. Chandra) | Duel Decks: Anthology
-Swamp (#60) | Duel Decks Anthology, Divine vs. Demonic -> Swamp (#60) (Divine vs. Demonic) | Duel Decks: Anthology
-Swamp (#60) | Duel Decks Anthology, Garruk vs. Liliana ->  Swamp (#60) (Garruk vs. Liliana) | Duel Decks: Anthology
-Swamp (#61) | Duel Decks Anthology, Divine vs. Demonic ->  Swamp (#61) (Divine vs. Demonic) | Duel Decks: Anthology
-Swamp (#61) | Duel Decks Anthology, Garruk vs. Liliana ->  Swamp (#61) (Garruk vs. Liliana) | Duel Decks: Anthology
-Swamp (#62) | Duel Decks Anthology, Divine vs. Demonic ->  Swamp (#62) (Divine vs. Demonic) | Duel Decks: Anthology
-Swamp (#62) | Duel Decks Anthology, Garruk vs. Liliana ->  Swamp (#62) (Garruk vs. Liliana) | Duel Decks: Anthology
+{Archon of the Triumvirate | Azorius Chancery | Azorius Charm | Azorius Guildmage | Azorius Herald | Azorius Justiciar | Azorius Keyrune | Azorius Signet | Court Hussar | Detention Sphere | Dovescape | Dramatic Rescue | Hover Barrier | Island (#027) | Isperia, Supreme Judge | Isperia the Inscrutable | Judge's Familiar | Lavinia of the Tenth | Lyev Skyknight | Plains (#026) | Pride of the Clouds | Render Silent | Sky Hussar | Skymark Roc | Sphinx's Revelation | Stoic Ephemera | Windreaver} | Ravnica Allegiance Guild Kit -> Guild Kit (Azorius)
 
-Hall of Triumph | Magic Game Day Cards -> Hall of Triumph (Hero's Path) | Magic Game Day Cards
-Adorned Pouncer | Magic Game Day Cards -> Adorned Pouncer (Full Art) | Magic Game Day Cards
+{Birds of Paradise | Borborygmos | Burning-Tree Emissary | Burning-Tree Shaman | Forest (#106) | Ghor-Clan Rampager | Giant Solifuge | Gruul Charm | Gruul Signet | Gruul Turf | Mountain (#105) | Pit Fight | Protean Hulk | Rubblebelt Raiders | Rubblehulk | Rumbling Slum | Ruric Thar, the Unbowed | Savageborn Hydra | Savage Twister | Scab-Clan Mauler | Skarrgan Firebird | Skarrgan Pit-Skulk | Ulasht, the Hate Seed | Wasteland Viper | Wurmweaver Coil | Zhur-Taa Druid | Zhur-Taa Swine} | Ravnica Allegiance Guild Kit -> Guild Kit (Gruul)
 
-{Chief of the Foundry | Dreg Mangler | Karametra's Acolyte | Ravenous Bloodseeker | Scythe Leopard | Sultai Charm} | Media Inserts -> Gift Box Promos
+{Call of the Nightwing | Circu, Dimir Lobotomist | Consuming Aberration | Copy Token | Horror Token | Dimir Aqueduct | Dimir Charm | Dimir Doppelganger | Dimir Guildmage | Dimir Signet | Dinrova Horror | Etrata, the Silencer | Glimpse the Unthinkable | Island (#024) | Last Gasp | Lazav, Dimir Mastermind | Mirko Vosk, Mind Drinker | Moroii | Netherborn Phalanx | Nightveil Specter | Ribbons of Night | Stolen Identity | Swamp (#025) | Syncopate | Szadek, Lord of Secrets | Telling Time | Warped Physique} | Guilds of Ravnica Guild Kit -> Guild Kit (Dimir)
 
-Evolving Wilds | Prerelease Events: Dragons of Tarkir -> Evolving Wilds | Dragons of Tarkir Dragonfury Game
+{Absorb | Absorb | Bedeck // Bedazzle | Bedeck // Bedazzle | Bedevil | Bedevil | Benthic Biomancer | Benthic Biomancer | Biogenic Ooze | Biogenic Ooze | Blood Crypt | Blood Crypt | Breeding Pool | Breeding Pool | Cindervines | Cindervines | Deputy of Detention | Deputy of Detention | Electrodominance | Electrodominance | Godless Shrine | Godless Shrine | Growth-Chamber Guardian | Growth-Chamber Guardian | Gruul Spellbreaker | Gruul Spellbreaker | Guardian Project | Guardian Project | Gutterbones | Gutterbones | Hallowed Fountain | Hallowed Fountain | Hero of Precinct One | Hero of Precinct One | Hydroid Krasis | Hydroid Krasis | Incubation Druid | Incubation Druid | Judith, the Scourge Diva | Judith, the Scourge Diva | Kaya, Orzhov Usurper | Kaya, Orzhov Usurper | Kaya's Wrath | Kaya's Wrath | Mass Manipulation | Mass Manipulation | Plaza of Harmony | Plaza of Harmony | Priest of Forgotten Gods | Priest of Forgotten Gods | Seraph of the Scales | Seraph of the Scales | Skarrgan Hellkite | Skarrgan Hellkite | Smothering Tithe | Smothering Tithe | Stomping Ground | Stomping Ground | Teysa Karlov | Teysa Karlov | Tithe Taker | Tithe Taker} | Throne of Eldraine - Promo Pack -> Ravnica Allegiance - Promo Pack
+{Ascendant Evincar | Bonescythe Sliver | Frost Titan | Garruk Wildspeaker | Grave Titan | Immaculate Magistrate | Inferno Titan | Liliana Vess | Nissa Revane | Ogre Battledriver | Primordial Hydra | Scavenging Ooze | Serra Avatar | Soul of Ravnica | Soul of Zendikar | Vampire Nocturnus | Verdant Force} | Media Inserts -> Duels of the Planeswalkers Game Promos
 
-{Chandra, Pyromaster (2013) | Chandra, Pyromaster (2014) } | Media Inserts -> SDCC
+{Ajani, the Greathearted | Ajani, the Greathearted | Blast Zone | Blast Zone | Bolas's Citadel | Bolas's Citadel | Chandra, Fire Artisan | Chandra, Fire Artisan | Commence the Endgame | Commence the Endgame | Dreadhorde Arcanist | Dreadhorde Arcanist | Dreadhorde Butcher | Dreadhorde Butcher | Dreadhorde Invasion | Dreadhorde Invasion | Enter the God-Eternals | Enter the God-Eternals | Fblthp, the Lost | Fblthp, the Lost | Feather, the Redeemed | Feather, the Redeemed | Finale of Devastation | Finale of Devastation | Finale of Eternity | Finale of Eternity | Finale of Revelation | Finale of Revelation | Gideon Blackblade | Gideon Blackblade | Jace, Wielder of Mysteries | Jace, Wielder of Mysteries | Karn's Bastion | Karn's Bastion | Karn, the Great Creator | Karn, the Great Creator | Krenko, Tin Street Kingpin | Krenko, Tin Street Kingpin | Liliana, Dreadhorde General | Liliana, Dreadhorde General | Living Twister | Living Twister | Mizzium Tank | Mizzium Tank | Mobilized District | Mobilized District | Narset's Reversal | Narset's Reversal | Nicol Bolas, Dragon-God | Nicol Bolas, Dragon-God | Nissa, Who Shakes the World | Nissa, Who Shakes the World | Oath of Kaya | Oath of Kaya | Ral, Storm Conduit | Ral, Storm Conduit | Solar Blaze | Solar Blaze | Sorin, Vengeful Bloodlord | Sorin, Vengeful Bloodlord | Soul Diviner | Soul Diviner | Spark Double | Spark Double | Storrev, Devkarin Lich | Storrev, Devkarin Lich | Tamiyo, Collector of Tales | Tamiyo, Collector of Tales | Teferi, Time Raveler | Teferi, Time Raveler | The Elderspell | The Elderspell | Time Wipe | Time Wipe | Tolsimir, Friend to Wolves | Tolsimir, Friend to Wolves | Tomik, Distinguished Advokist | Tomik, Distinguished Advokist | Ugin, the Ineffable | Ugin, the Ineffable | Vivien, Champion of the Wilds | Vivien, Champion of the Wilds | Widespread Brutality | Widespread Brutality} | Throne of Eldraine - Promo Pack -> War of the Spark - Promo Pack 
 
-Frost Titan | Media Inserts -> Frost Titan (2012) | Duels of the Planeswalkers Game Promos
-Nissa Revane | Media Inserts -> Nissa Revane (2010) | Duels of the Planeswalkers Game Promos
-Niv-Mizzet, the Firemind | Champs -> Niv-Mizzet, the Firemind (2006) | Champs Promos
+{Nexus of Fate} | Core Set 2019 -> Buy-a-Box Promos
+{Arclight Phoenix | Arclight Phoenix | Assassin's Trophy | Assassin's Trophy | Aurelia, Exemplar of Justice | Aurelia, Exemplar of Justice | Beast Whisperer | Beast Whisperer | Chromatic Lantern | Chromatic Lantern | Dawn of Hope | Dawn of Hope | Deafening Clarion | Deafening Clarion | Divine Visitation | Divine Visitation | Doom Whisperer | Doom Whisperer | Expansion // Explosion | Expansion // Explosion | Experimental Frenzy | Experimental Frenzy | Ionize | Ionize | Knight of Autumn | Knight of Autumn | Legion Warboss | Legion Warboss | Mausoleum Secrets | Mausoleum Secrets | Midnight Reaper | Midnight Reaper | Mission Briefing | Mission Briefing | Niv-Mizzet, Parun | Niv-Mizzet, Parun | Overgrown Tomb | Overgrown Tomb | Pelt Collector | Pelt Collector | Quasiduplicate | Quasiduplicate | Risk Factor | Risk Factor | Ritual of Soot | Ritual of Soot | Runaway Steam-Kin | Runaway Steam-Kin | Sacred Foundry | Sacred Foundry | Steam Vents | Steam Vents | Tajic, Legion's Edge | Tajic, Legion's Edge | Temple Garden | Temple Garden | Thief of Sanity | Thief of Sanity | Unmoored Ego | Unmoored Ego | Venerated Loxodon | Venerated Loxodon | Vraska, Golgari Queen | Vraska, Golgari Queen | Watery Grave | Watery Grave} | Throne of Eldraine - Promo Pack -> Guilds of Ravnica - Promo Pack
 
-Ogre Battledriver | Media Inserts -> Ogre Battledriver (2014) | Duels of the Planeswalkers Game Promos
+{Bishop of Rebirth | Brass's Bounty | Desecrated Tomb | Earl of Squirrel} | Launch Parties -> Miscellaneous Promos 
 
-Serra Avatar | Media Inserts -> Serra Avatar (2013) | Duels of the Planeswalkers Game Promos
+{Blaring Recruiter | Soulblade Corrupter} | Battlebond Promos -> Launch Promos
 
+{Acclaimed Contender | Ayara, First of Locthwain | Blacklance Paragon | Bonecrusher Giant // Stomp | Brazen Borrower // Petty Theft | Castle Ardenvale | Castle Embereth | Castle Garenbrig | Castle Locthwain | Castle Vantress | Charming Prince | Clackbridge Troll | Dance of the Manse | Doom Foretold | Embercleave | Emry, Lurker of the Loch | Escape to the Wilds | Fabled Passage | Faeburrow Elder | Fae of Wishes // Granted | Feasting Troll King | Fervent Champion | Fires of Invention | Folio of Fancies | Gadwick, the Wizened | Garruk, Cursed Huntsman | Giant Killer // Chop Down | Gilded Goose | Happily Ever After | Harmonious Archon | Hushbringer | Irencrag Feat | Irencrag Pyromancer | Linden, the Steadfast Queen | Lochmere Serpent | Lovestruck Beast // Heart's Desire | Midnight Clock | Mirrormade | Murderous Rider // Swift End | Oathsworn Knight | Oko, Thief of Crowns | Once Upon a Time | Opportunistic Dragon | Outlaws' Merriment | Piper of the Swarm | Questing Beast | Rankle, Master of Pranks | Realm-Cloaked Giant // Cast Off | Return of the Wildspeaker | Robber of the Rich | Sorcerous Spyglass | Stolen by the Fae | Stonecoil Serpent | Stormfist Crusader | Sundering Stroke | The Cauldron of Eternity | The Circle of Loyalty | The Great Henge | The Magic Mirror | The Royal Scions | Torbran, Thane of Red Fell | Vantress Gargoyle | Wicked Wolf | Wildborn Preserver | Wishclaw Talisman | Witch's Vengeance | Worthy Knight | Yorvo, Lord of Garenbrig} | Prerelease Promos -> Throne of Eldraine - Prerelease Promos
 
-Magister of Worth | Release Events -> Magister of Worth | Launch Promos
+{Animal Sanctuary | Azusa, Lost but Seeking | Baneslayer Angel | Barrin, Tolarian Archmage | Basri Ket | Basri's Lieutenant | Brash Taunter | Chandra, Heart of Fire | Chandra's Incinerator | Chromatic Orrery | Conspicuous Snoop | Containment Priest | Demonic Embrace | Discontinuity | Double Vision | Elder Gargaroth | Fabled Passage | Feline Sovereign | Fiery Emancipation | Gadrak, the Crown-Scourge | Garruk's Harbinger | Garruk, Unleashed | Ghostly Pilferer | Glorious Anthem | Grim Tutor | Heroic Intervention | Hooded Blightfang | Idol of Endurance | Jolrael, Mwonvuli Recluse | Kaervek, the Spiteful | Liliana's Standard Bearer | Liliana, Waker of the Dead | Mangara, the Diplomat | Massacre Wurm | Mazemind Tome | Necromentia | Niambi, Esteemed Speaker | Nine Lives | Pack Leader | Peer into the Abyss | Primal Might | Pursued Whale | Radha, Heart of Keld | Runed Halo | Sanctum of All | Scavenging Ooze | See the Truth | Shacklegeist | Solemn Simulacrum | Sparkhunter Masticore | Speaker of the Heavens | Sporeweb Weaver | Stormwing Entity | Subira, Tulzidi Caravanner | Sublime Epiphany | Teferi, Master of Time (#075) | Teferi's Ageless Insight | Temple of Epiphany | Temple of Malady | Temple of Mystery | Temple of Silence | Temple of Triumph | Terror of the Peaks | Thieves' Guild Enforcer | Transmogrify | Ugin, the Spirit Dragon | Vito, Thorn of the Dusk Rose | Volcanic Salvo} | Prerelease Promos ->  Core 2021 - Prerelease Promos 
+{Allure of the Unknown | Aphemia, the Cacophony | Arasta of the Endless Web | Archon of Sun's Grace | Ashiok, Nightmare Muse | Ashiok's Erasure | Atris, Oracle of Half-Truths | Bronzehide Lion | Calix, Destiny's Hand | Dalakos, Crafter of Wonders | Dream Trawler | Dryad of the Ilysian Grove | Eat to Extinction | Eidolon of Obstruction | Elspeth Conquers Death | Elspeth, Sun's Nemesis | Enigmatic Incarnation | Erebos, Bleak-Hearted | Erebos's Intervention | Gallia of the Endless Dance | Gravebreaker Lamia | Haktos the Unscarred | Heliod's Intervention | Heliod, Sun-Crowned | Idyllic Tutor | Kiora Bests the Sea God | Klothys, God of Destiny | Kroxa, Titan of Death's Hunger | Kunoros, Hound of Athreos | Labyrinth of Skophos | Mantle of the Wolf | Nadir Kraken | Nessian Boar | Nightmare Shepherd | Nylea, Keen-Eyed | Nylea's Intervention | Nyxbloom Ancient | Nyx Lotus | Ox of Agonas | Phoenix of Ash | Polukranos, Unchained | Protean Thaumaturge | Purphoros, Bronze-Blooded | Purphoros's Intervention | Setessan Champion | Shadowspear | Shatter the Sky | Storm Herald | Storm's Wrath | Taranika, Akroan Veteran | Tectonic Giant | Temple of Abandon | Temple of Deceit | Temple of Enlightenment | Temple of Malice | Temple of Plenty | Thassa, Deep-Dwelling | Thassa's Intervention | Thassa's Oracle | The Akroan War | The First Iroan Games | Thryx, the Sudden Storm | Treacherous Blessing | Tymaret Calls the Dead | Underworld Breach | Uro, Titan of Nature's Wrath | Wavebreak Hippocamp | Woe Strider} | Prerelease Promos -> Theros: Beyond Death - Prerelease Promos
+{Budoka Pupil} | Release Events -> Launch Promos
+Chandra, Fire of Kaladesh | Media Inserts -> Chandra, Fire of Kaladesh (2015) | SDCC
+{Bloodthrone Vampire} | Media Inserts -> Convention
 
-Bloodthrone Vampire | Media Inserts -> Bloodthrone Vampire (2011) | Convention
-
-{Archfiend of Ifnir |  Arguel's Blood Fast |  Birds of Paradise |  Burning Sun's Avatar |  Captain's Hook |  Cathedral of War |  Celestial Colonnade |  Chandra's Phoenix |  Conqueror's Galleon |  Day of Judgment |  Devil's Play |  Dowsing Dagger |  Eidolon of Blossoms |  Elusive Tormentor |  Fated Conflagration |  Firesong and Sunspeaker |  Goblin Dark-Dwellers |  Goblin Rabblemaster |  Gravecrawler |  Growing Rites of Itlimoc |  Guul Draz Assassin |  Honor of the Pure |  Legion's Landing |  Memoricide |  Mirran Crusader |  Nightveil Specter |  Ojutai's Command |  Primal Amulet |  Ratchet Bomb |  Rattleclaw Mystic |  Relic Seeker |  Render Silent |  Ruinous Path |  Scrap Trawler |  Search for Azcanta |  Shamanic Revelation |  Silverblade Paladin |  Skyship Stalker |  Supreme Verdict |  Surgical Extraction |  Sylvan Caryatid |  Thalia, Heretic Cathar |  Thaumatic Compass |  Treasure Map |  Vance's Blasting Cannons |  Wildfire Eternal} | Media Inserts -> Buy-a-Box Promos
-
-{Acquire |  Arrest |  Breath of Malfegor |  Consume Spirit |  Corrupt |  Duress |  Electrolyze |  Faithless Looting |  Feast of Blood |  Gaze of Granite |  High Tide |  Ogre Arsonist |  Standstill |  Treasure Hunt |  Turnabout |  Voidmage Husher |  Wash Out} | Media Inserts -> IDW Comics
-
-{Terastodon} | Media Inserts -> Resale Promos
-
-Trostani, Selesnya's Voice | Guilds of Ravnica Guild Kit -> Trostani, Selesnya's Voice | Guild Kit (Selesnya)
-
-Very Cryptic Command (b) | Unstable -> Very Cryptic Command (Untap) | Unstable
+{Bonders' Enclave | Brokkos, Apex of Forever | Chevill, Bane of Monsters | Colossification | Crystalline Giant | Cubwarden | Death's Oasis | Dirge Bat | Drannith Magistrate | Eerie Ultimatum | Emergent Ultimatum | Everquill Phoenix | Extinction Event | Fiend Artisan | Frondland Felidar | Gemrazer | General Kudro of Drannith | Genesis Ultimatum | Gyruda, Doom of Depths | Hunted Nightmare | Illuna, Apex of Wishes | Indatha Triome | Inspired Ultimatum | Jegantha, the Wellspring | Kaheera, the Orphanguard | Keruga, the Macrosage | Ketria Triome | Kinnan, Bonder Prodigy | Kogla, the Titan Ape | Labyrinth Raptor | Lavabrink Venturer | Lukka, Coppercoat Outcast | Luminous Broodmoth | Lurrus of the Dream-Den | Lutri, the Spellchaser | Mythos of Brokkos | Mythos of Illuna | Mythos of Nethroi | Mythos of Snapdax | Mythos of Vadrok | Narset of the Ancient Way | Nethroi, Apex of Death | Obosh, the Preypiercer | Offspring's Revenge | Quartzwood Crasher | Raugrin Triome | Rielle, the Everwise | Ruinous Ultimatum | Savai Triome | Sea-Dasher Octopus | Shark Typhoon | Skycat Sovereign | Slitherwisp | Snapdax, Apex of the Hunt | Song of Creation | The Ozolith | Titans' Nest | Umori, the Collector | Unpredictable Cyclone | Vadrok, Apex of Thunder | Vivien, Monsters' Advocate | Voracious Greatshark | Whirlwind of Thought | Winota, Joiner of Forces | Yidaro, Wandering Monster | Yorion, Sky Nomad | Zagoth Triome | Zirda, the Dawnwaker} | Prerelease Promos -> Ikoria: Lair of Behemoths Prerelease Promos
+{Deathless Angel} | WPN/Gateway -> Game Day Promos
 
 NAME_NUMBER_REPLACE
-
-'''Basically just for alliances/homelands/portal multiple arts'''
-'''and those two copies of chandra'''
 
 Chandra, Pyromaster | 75 -> Chandra, Pyromaster (2013)
 Chandra, Pyromaster | 90 -> Chandra, Pyromaster (2014)
@@ -134,6 +69,7 @@ Storm Crow | 54 -> Storm Crow (Flying Right)
 Kjeldoran Escort | 134 -> Kjeldoran Escort (Red Blanket)
 Wild Aesthir | 155 -> Wild Aesthir (Wings Spread)
 Arcane Denial | 32 -> Arcane Denial (Axe)
+Arcane Denial | 33 -> Arcane Denial (Sword)
 Fling | 50 -> Fling (#50)
 Fling | 69 -> Fling (#69)
 Izzet Guildgate | 251 -> Izzet Guildgate (#251)
@@ -142,3 +78,12 @@ Phantasmal Fiend | 21 -> Phantasmal Fiend (Doorway)
 Storm Crow | 55 -> Storm Crow (Flying Left)
 Harmonize | 21 -> Harmonize (Garruk vs. Liliana)
 Giant Growth | 21 -> Giant Growth (Elves vs. Goblins)
+Basal Thrull | 6 -> Basal Thrull (Phil Foglio)
+Boros Guildgate | 243 -> Boros Guildgate (#243)
+Boros Guildgate | 244 -> Boros Guildgate (#244)
+Dimir Guildgate | 245 -> Dimir Guildgate (#245)
+Dry Spell | 7 -> Dry Spell (Fish)
+Elvish Hunter | 73 -> Elvish Hunter (Anson Maddocks)
+Elvish Hunter | 74 -> Elvish Hunter (Susan Van Camp)
+Foresight | 43 -> Foresight (Facing Front)
+Foresight | 44 -> Foresight (Facing Right)
