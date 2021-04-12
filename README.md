@@ -1,3 +1,8 @@
+NOTES FOR 2021:
+
+Have redone a bunch of stuff in this for 2021. the Delverlens->Deckbox mode works alright, but the deckbox->cardsphere mode has been completely rewritten.
+you want to use mtgconvert2021.py, `python mtgconvert2021.py inv.csv delverlens deckbox out.csv`
+
 # mtgconvert
 Python script and config files to convert between different CSV export formats of various Magic: the Gathering collection apps and utilities.
 
@@ -51,4 +56,5 @@ Intention is for the community to update these replacement files as errors and m
 Easiest way to add full new set rules is to use a HTML table copier (e.g. Copytables) and text replace tools. 
 
 To update finicky things (namely Deckbox->Cardsphere alt-art-same-number cards), it is recommended to check the deckbox collector number and the corresponding CS card name. As these are tedious and low-impact, they will be added as people find them.
+
 
