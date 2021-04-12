@@ -10,7 +10,7 @@ Currently built for:
 
 Delver Lens (Deckbox Export) -> Deckbox  
 Deckbox -> Cardsphere
-
+Deckbox -> Deckbox (this will update all tradelist counts to equal total collection counts and nothing else)
 
 Note this will only convert a file that has the correct csv layout as expected, but differing set or card names - for instance 'Promotional: Non-Release' to a specific
 set.
